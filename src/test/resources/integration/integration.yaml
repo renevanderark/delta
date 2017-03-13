@@ -1,0 +1,26 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 4567
+      bindHost: 127.0.0.1
+  adminConnectors:
+    - type: http
+      port: 4568
+  requestLog:
+    appenders:
+      - type: console
+        logFormat: "- %-5p  %m [%c{60}]%n"
+
+# Database settings.
+database:
+
+  # the name of your JDBC driver
+  driverClass: org.h2.Driver
+
+  # the username
+  user: daredev
+
+  # the password
+  password: daredev
+
+  url: jdbc:h2:mem:deltaintegration

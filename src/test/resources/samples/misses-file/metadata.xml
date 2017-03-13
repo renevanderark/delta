@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2017-03-13T07:41:53Z</responseDate><request identifier="uu:oai:dspace.library.uu.nl:1874/202398" metadataPrefix="nl_didl_norm" verb="GetRecord">http://oai.gharvester.dans.knaw.nl:8000/oai</request><GetRecord><record><header><identifier>uu:oai:dspace.library.uu.nl:1874/202398</identifier><datestamp>2017-03-04T01:03:34Z</datestamp><setSpec>uu:com_1874_296827</setSpec><setSpec>uu:col_1874_76</setSpec><setSpec>uu</setSpec><setSpec>uu:dare</setSpec><setSpec>uu:col_1874_296828</setSpec><setSpec>uu:com_1874_24</setSpec></header><metadata><didl:DIDL xmlns:didl="urn:mpeg:mpeg21:2002:02-DIDL-NS" xmlns:dii="urn:mpeg:mpeg21:2002:01-DII-NS" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:mpeg21:2002:02-DIDL-NS      http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-21_schema_files/did/didl.xsd     urn:mpeg:mpeg21:2002:01-DII-NS      http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-21_schema_files/dii/dii.xsd">
+  <didl:Item>
+    <didl:Descriptor>
+      <didl:Statement mimeType="application/xml">
+        <dii:Identifier>URN:NBN:NL:UI:10-1874-202398</dii:Identifier>
+      </didl:Statement>
+    </didl:Descriptor>
+    <didl:Descriptor>
+      <didl:Statement mimeType="application/xml">
+        <dcterms:modified>2011-03-08T10:33:13Z</dcterms:modified>
+      </didl:Statement>
+    </didl:Descriptor>
+    <didl:Component>
+      <didl:Resource mimeType="application/xml" ref="https://dspace.library.uu.nl/bitstream/1874/202398/2/shen.pdf"/>
+    </didl:Component>
+    <didl:Item>
+      <didl:Descriptor>
+        <didl:Statement mimeType="application/xml">
+          <rdf:type rdf:resource="info:eu-repo/semantics/descriptiveMetadata"/>
+        </didl:Statement>
+      </didl:Descriptor>
+      <didl:Component>
+        <didl:Resource mimeType="application/xml">
+          <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+  <mods:titleInfo>
+    <mods:title>Bio-based and recycled polymers for cleaner production : an assessment of plastics and fibres</mods:title>
+  </mods:titleInfo>
+  <mods:name type="personal" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" ID="n202398_aut_1">
+    <mods:namePart type="family">Shen</mods:namePart>
+    <mods:namePart type="given"> L.</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+    </mods:role>
+    <mods:nameIdentifier type="dai-nl" typeURI="info:eu-repo/dai/nl">310872022</mods:nameIdentifier>
+  </mods:name>
+  <mods:name type="personal" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" ID="n202398_ths_1">
+    <mods:namePart type="family">Worrell</mods:namePart>
+    <mods:namePart type="given"> Ernst</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type="code" authority="marcrelator">ths</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type="personal" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" ID="n202398_ths_2">
+    <mods:namePart type="family">Patel</mods:namePart>
+    <mods:namePart type="given"> Martin</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type="code" authority="marcrelator">ths</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type="corporate">
+    <mods:namePart>University Utrecht</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type="code" authority="marcrelator">dgg</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:genre>info:eu-repo/semantics/doctoralThesis</mods:genre>
+  <mods:originInfo>
+    <mods:dateIssued encoding="w3cdtf">2011-03-16</mods:dateIssued>
+    <mods:publisher>Utrecht University</mods:publisher>
+  </mods:originInfo>
+  <mods:language>
+    <mods:languageTerm type="code" authority="rcf3066">en</mods:languageTerm>
+  </mods:language>
+  <mods:abstract>Today, almost all man-made plastics and fibres are produced from synthetic polymers. Synthetic polymers, made from petroleum which took millions of years to form, have three sustainability challenges: (i) the limited fossil fuel resources, (ii) the environmental impacts caused by non-degradable plastics waste, and (iii) greenhouse gas emissions caused by combusting fossil fuels. To tackle these sustainability challenges, two strategies have been proposed. First, use bio-based polymers to replace the traditional petrochemical polymers. Second, increase the overall material utilisation efficiency by means of recycling. Plastics and fibres are the two most important applications of synthetic polymers. The objective of this thesis is to assess the environmental impacts of plastics and fibres made from bio-based and recycled materials and to compare them with the conventional counterparts. Bio-based products have attracted much attention in recent years. The technical substitution potential of bio-based polymers replacing petrochemical polymers is enormous (Chapter 2). The bioplastics industry grew strongly in the past decade and will continue growing in the future (Chapter 2). Bio-based polymers reduce our dependency on limited fossil fuels and offer environmental benefits (Chapters 3 and 4). However, bio-based materials have their own sustainability issues, e.g. the potential GHG emissions arising from land use change and the potential competition with food production. Like bio-based products, recycled products reduce our dependency on limited fossil fuels and reduce the amount of municipal waste. Recycled products offer at least as much savings of NREU and GHG emissions as bio-based products (Chapters 5, 6 and 7). Unlike bio-based polymers, recycled polymers do not cause problems related to land use change and food competition. The outcome of the environmental assessments presented in Chapters 5, 6 and 7 strongly indicates that more attention should be paid to recycling. In this thesis we only studied PET; in practice, more plastics are recycled on a large scale (e.g. PE, PVC and EPS). The full potential of plastic recycling has not been explored. Major research efforts are under-way for bio-based products while the activities in the area of recycling are very limited. Overall, we conclude that bio-based and recycled materials offer important opportunities for cleaner production. The environmental impact assessments presented included the standard categories of impact assessment (e.g. the CML method applied in Chapters 4 and 5), or only NREU and GHG emissions (Chapters 3, 6 and 7). Future research on the impact of water use, land use and biodiversity is urgently required. Furthermore, for both bio-based and recycled polymers, continuous efforts should be made to improve material properties. If a wide range of applications is covered, a significant impact reduction will be achieved in the future. However, improvement of material properties may lead to a higher production cost, which is a potential barrier to the implementation of bio-based and recycled polymers. In this thesis, we assessed the sustainability only from the environmental point of view. Future research on the economics and the social aspects of bio-based and recycled polymers is required</mods:abstract>
+  <mods:identifier type="uri">URN:ISBN:978-90-086720-48-4</mods:identifier>
+</mods:mods>
+        </didl:Resource>
+      </didl:Component>
+    </didl:Item>
+    <didl:Item>
+      <didl:Descriptor>
+        <didl:Statement mimeType="application/xml">
+          <rdf:type rdf:resource="info:eu-repo/semantics/objectFile"/>
+        </didl:Statement>
+      </didl:Descriptor>
+      <didl:Descriptor>
+        <didl:Statement mimeType="application/xml">
+          <dcterms:accessRights>http://purl.org/eprint/accessRights/OpenAccess</dcterms:accessRights>
+        </didl:Statement>
+      </didl:Descriptor>
+      <didl:Descriptor>
+        <didl:Statement mimeType="application/xml">
+          <dcterms:modified>2011-03-08T10:33:13Z</dcterms:modified>
+        </didl:Statement>
+      </didl:Descriptor>
+      <didl:Component>
+        <didl:Resource mimeType="text/plain" ref="https://dspace.library.uu.nl/bitstream/1874/202398/2/shen.pdf"/>
+      </didl:Component>
+    </didl:Item>
+    <didl:Item>
+      <didl:Descriptor>
+        <didl:Statement mimeType="application/xml">
+          <rdf:type rdf:resource="info:eu-repo/semantics/objectFile"/>
+        </didl:Statement>
+      </didl:Descriptor>
+      <didl:Descriptor>
+        <didl:Statement mimeType="application/xml">
+          <dcterms:accessRights>http://purl.org/eprint/accessRights/OpenAccess</dcterms:accessRights>
+        </didl:Statement>
+      </didl:Descriptor>
+      <didl:Descriptor>
+        <didl:Statement mimeType="application/xml">
+          <dcterms:modified>2011-03-08T10:33:13Z</dcterms:modified>
+        </didl:Statement>
+      </didl:Descriptor>
+      <didl:Component>
+        <didl:Resource mimeType="text/plain" ref="https://dspace.library.uu.nl/bitstream/1874/202398/3/shen.jpg"/>
+      </didl:Component>
+    </didl:Item>
+    <didl:Item>
+      <didl:Descriptor>
+        <didl:Statement mimeType="application/xml">
+          <rdf:type rdf:resource="info:eu-repo/semantics/humanStartPage"/>
+        </didl:Statement>
+      </didl:Descriptor>
+      <didl:Component>
+        <didl:Resource ref="http://dspace.library.uu.nl/handle/1874/202398" mimeType="text/html"/>
+      </didl:Component>
+    </didl:Item>
+  </didl:Item>
+</didl:DIDL>
+</metadata><about><provenance xmlns="http://www.openarchives.org/OAI/2.0/provenance"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/provenance
+                      http://www.openarchives.org/OAI/2.0/provenance.xsd">
+
+<originDescription harvestDate="2017-03-04T02:03:33Z" altered="true">
+  <baseURL>https://dspace.library.uu.nl/oai/dare</baseURL>
+  <identifier>oai:dspace.library.uu.nl:1874/202398</identifier>
+  <datestamp>2017-03-03T17:29:18Z</datestamp>
+  <metadataNamespace>http://www.loc.gov/mods/v3</metadataNamespace>
+</originDescription>
+</provenance>
+</about></record></GetRecord></OAI-PMH>
